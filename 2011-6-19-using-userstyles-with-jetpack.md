@@ -1,4 +1,5 @@
 ---
+title: Using UserStyles with Jetpack
 short URL: http://r.evold.ca/userstylesjp
 tags: UserStyles, Firefox Add-ons, CSS, Jetpack
 ---
