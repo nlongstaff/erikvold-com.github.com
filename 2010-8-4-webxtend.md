@@ -1,0 +1,10 @@
+---
+title: Webxtend
+short URL: http://r.evold.ca/webxtend
+tags: Javascript, Internet, Microformats, Greasemonkey, HTML, WebDev, Firefox
+---
+Something that I don't think many web developers and extension developers seem to be picking up on, but yet some are, is what I'm calling <b>webxtending</b>, which is providing APIs that allow their users to extend their website/webapp or extension with a browser extension. To illustrate this idea take the <a title="Gmail-Greasemonkey API" rel="external" rev="vote-for" target="_blank" href="http://code.google.com/p/gmail-greasemonkey/">Gmail-Greasemonkey API</a>, this is a front-end JS API that a user script can easily access to be notified of Gmail's custom events, change state variables, and perform actions with the Gmail interface (afaik the api used to work, and some parts do not work at the moment). This was a wonderful idea because it allowed user script authors to save a lot of development time, also maintenance time, and write more cpu efficient scripts. Furthermore I imagine such a API would be extremely useful to internal development, it would at least reduce the chance of sloppiness.</p>
+
+<p>Webxtending doesn't always mean providing a Javascript API though, it often simply means writing semantic code by using <a title="Microformats" rel="external" rev="vote-for" target="_blank" href="http://microformats.org/">microformats</a>, and structuring the markup in a logical manner, taking into account how others may want to change the UI, and making those changes as easy for them to make as possible. This means using the <strong>id</strong> attribute even when you don't need it, because others may, but it also means thinking carefully about every facet of the structure. XUL overlays used in Firefox extension development are a good example of this structural extendibility idea.</p>
+
+<p>Webxtend is a gold standard quality requirement, if your website or browser extension is not webxtendable then it's not gold standard quality. =p</p>
