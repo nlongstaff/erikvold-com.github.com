@@ -2,7 +2,7 @@
 title: Do Not Disable Right Click On Your Website With JavaScript
 tags: Usability, Javascript, Green
 ---
-I'm just going to list some reasons why it's a bad idea to disable right clicking on your website with <a title="JavaScript" rev="vote-for" rel="external nofollow" target="_blank" href="http://en.wikipedia.org/wiki/Javascript">JavaScript</a>.</p>
+I'm just going to list some reasons why it's a bad idea to disable right clicking on your website with [JavaScript](http://en.wikipedia.org/wiki/Javascript).</p>
 
 <ul>
 <li>Any user can simply disable JavaScript, then view source, copy, etc, etc, without any trouble.</li>
