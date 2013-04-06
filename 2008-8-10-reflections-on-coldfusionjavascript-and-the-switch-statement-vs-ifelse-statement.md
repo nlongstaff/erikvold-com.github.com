@@ -16,7 +16,7 @@ Now let's consider the **downside** of a switch statement:
 
 Here's an example of a Coldfusion if...else statement that can be simplified with a switch statement:
 
-<div class="code">&lt;cfscript&gt;   
+&lt;cfscript&gt;   
 function cleanTeeth(meal){   
   if(meal eq "brunch"){   
     useToothPick();   
@@ -34,11 +34,11 @@ function cleanTeeth(meal){
     useToothBrush();   
   }   
 }   
-&lt;/cfscript&gt;</div><p>     
+&lt;/cfscript&gt;   
 
 Now here is the simplified switch statement version:
 
-<div class="code">&lt;cfscript&gt;   
+&lt;cfscript&gt;   
 function cleanTeeth(meal){   
   switch(meal){   
     case "brunch":   
@@ -52,7 +52,7 @@ function cleanTeeth(meal){
       useToothBrush();   
   }   
 }   
-&lt;/cfscript&gt;</div><p>
+&lt;/cfscript&gt;
 
 So in this example, not only is the switch statement version reusing code, making it less lines, but it should run faster, especially if you eat a lot.
 
